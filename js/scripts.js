@@ -108,4 +108,19 @@
         });
     });
 
+     $(document).ready(function() {
+        $('a[href^="#"]').on('click', function(e) {
+        e.preventDefault();
+
+        var target = $(this.getAttribute('href'));
+        if (target.length) {
+            var headerHeight = 73; // adjust to match your sticky header height
+
+            $('html, body').animate({
+            scrollTop: target.offset().top - headerHeight
+            }, 1200, 'swing'); // 1200ms for smooth scroll
+        }
+        });
+    });
+
 })(jQuery);
