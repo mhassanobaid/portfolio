@@ -1,11 +1,9 @@
-# Talha Portfolio
+# Muhammad Hassan Obaid Portfolio
 
-Welcome to TalhaPortfolio – a customizable personal dev portfolio + blog template built using GatsbyJS, TailwindCSS, and enhanced with Sass, JavaScript, and Gulp. It's lightweight, responsive, and production-ready – just plug in your info and you're live! 🚀
+Welcome to MuhammadHassanObaidPortfolio – a customizable personal dev portfolio + blog template built using GatsbyJS, TailwindCSS, and enhanced with Sass, JavaScript, and Gulp. It's lightweight, responsive, and production-ready – just plug in your info and you're live! 🚀
 
-🎉 Interested in full-stack Chrome Extension development? Check out my new course – Chrome Extension Mastery!
-
-🚀 Live Demo of TalhaPortfolio [clickHere](https://muhammadtalhakhan2003.github.io/PortFolio_Talha/)
-📁 GitHub Repository(https://github.com/MuhammadTalhakhan2003/PortFolio_Talha.git)
+🚀 Live Demo of portfolio [clickHere]()
+📁 GitHub Repository(https://github.com/mhassanobaid/portfolio.git)
 
 ✨ Features
 ⚙️ Built with GatsbyJS + TailwindCSS
@@ -30,14 +28,18 @@ bash
 Copy
 Edit
 # Clone the repository
-git clone https://github.com/MuhammadTalhakhan2003/PortFolio_Talha.git
-cd PortFolio_Talha
+git clone https://github.com/mhassanobaid/portfolio.git
+cd portfolio
 
 # Install dependencies
 npm install
 
 # Run Gulp to compile Sass and minify JS
 npm run watch  # OR gulp watch
+
+# OR compile once manually
+npm run styles
+
 Make edits in:
 
 sass/styles.scss → compiled to css/styles.css
@@ -63,12 +65,6 @@ $base-color: #3498db;
 $background: #fff;
 $heading: #374054;
 $text: #74808a;
-🖼️ Images
-Background: images/lead-bg.jpg (1920x1080 recommended)
-
-Favicon: /favicon.ico
-
-Project Thumbnails: images/project.jpg
 
 🧩 Page Sections
 🔝 Header
@@ -89,9 +85,9 @@ Update your name, title, and resume link:
 
 html
 
-<h1>Muhammad Talha Khan</h1>
-<h2>Software Engineer | Developer</h2>
-<a href="resume.pdf" download="Talha_Resume.pdf" class="btn-rounded-white">Download Resume</a>
+<h1>Muhammad Hassan Obaid</h1>
+<h2>Software Engineer</h2>
+<a href="images/Muhammad_Hassan_Obaid_Resume.pdf" download="Hassan_Resume.pdf" class="btn-rounded-white">Download Resume</a>
 👤 About Section
 Just edit the paragraph with your bio.
 
@@ -101,9 +97,9 @@ Vertical timeline using #experience-timeline:
 html
 
 <div data-date="2023 – Present">
-  <h3>ItSolera</h3>
-  <h4>Backend Developer</h4>
-  <p>Built secure and scalable backend systems...</p>
+  <h3>Blackstack Software Solutions</h3>
+  <h4>Full stack Developer</h4>
+  <p>Built secure and scalable systems...</p>
 </div>
 🎓 Education Section
 html
@@ -111,21 +107,21 @@ Copy
 Edit
 <div class="education-block">
   <h3>University of South Asia</h3>
-  <span class="education-date">2019 – 2023</span>
-  <h4>Bachelor of Science in Computer Science</h4>
-  <p>CGPA: 3.44</p>
+  <span class="education-date">2020 – 2024</span>
+  <h4>Bachelor of Science in Software Engineering</h4>
+  <p>CGPA: 3.55</p>
 </div>
 💻 Projects Section
 html
 
 <div class="project">
   <div class="project-image">
-    <img src="images/project.jpg" />
+    <img src="images/adventure-ace-system.png" />
   </div>
   <div class="project-info">
-    <h3>Hifazat App</h3>
-    <p>Community-driven safety app with real-time crime tracking.</p>
-    <a href="https://github.com/yourproject">View Project</a>
+    <h3>Adventure Ace Tour management System</h3>
+    <p>Community-driven role-based tour management portal</p>
+    <a href="https://github.com/mhassanobaid/FypProj">View Project</a>
   </div>
 </div>
 Add "Show More Projects" toggle:
@@ -147,7 +143,7 @@ Add copyrights.
 bash
 
 gulp watch    # watches and compiles SCSS + JS
-gulp sass     # compile Sass manually
+gulp styles     # compile Sass manually
 gulp js       # minify JS manually
 📝 License
 This project is licensed under the MIT License – feel free to use and modify it for personal/commercial purposes.
@@ -160,5 +156,5 @@ Images from Unsplash
 Icons by Font Awesome
 
 Want to collaborate or suggest a feature?
-📧 Contact: Talhakhan050203@gmail.com
+📧 Contact: ahmedhassan9145@gmail.com
 🔗 GitHub Profile
