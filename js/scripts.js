@@ -38,11 +38,22 @@
         }
     });
 
-    // Scroll to top
+    // Scroll to top (smoother & slower)
     $('#to-top').click(function() {
         $('html, body').animate({
             scrollTop: 0
-        }, 500);
+        }, 1200, 'swing');
+    });
+
+    $('.scroll-top').click(function(e) {
+        e.preventDefault();
+        $('html, body').animate(
+            {
+                scrollTop: 0
+            }, 
+            1200,
+            'swing'
+        );
     });
 
     // Scroll to first element
